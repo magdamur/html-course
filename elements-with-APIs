@@ -1,1 +1,14 @@
+canvas
+<canvas></canvas>
 
+video
+<video>
+  <source src="video.mp4">
+  <source src="video.ogg">
+  <source src="video.webm">
+  <track 
+    kind="subtitles"
+    label="Polish Subtitles"
+    src="pl.vtt"
+    srclan="en">
+</video>
