@@ -1,0 +1,7 @@
+meter
+<meter
+  min="0"
+  max="100"
+  value="20">
+  20 out of 100
+</meter>
