@@ -50,7 +50,15 @@ Inteaction, Events amd Messaging
   
   Security and Privacy
   -Content Security Policy - preventing cross-site scripting attact by creating whitelist for sources of the page including scrips & styles
-  -Referrer Policy
-  -Web Cryptography
+  -Referrer Policy - gives you control over the amount of data thats transmitted through http referrer
+  -Web Cryptography - provides a way to decrypt/encrypt data entirely on the client
+  
+  Miscellaneous APIs
+  -scripts: async and defer
+  -contentEditable
+  -Drag and Drop
+  -History
+  -Promises
+  -Service Workers
   
   
