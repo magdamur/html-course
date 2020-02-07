@@ -25,6 +25,17 @@ Inteaction, Events amd Messaging
    
  Real Time Communication
   -Push API - push data from the server to the client
-  -Server-Sent Events - message from the server to the client (one way)
+  -Server-Sent Events - message from the server to the client (one way channel communications)
   -Web Socets - two way communications
+  
+ Web Components
+  -Custom Elements
+  <comments>
+    <comment 
+      autor="John Smith"
+      avatarUrl="avatar.jpg"
+      publishDate="12/01/2019">
+      some text
+    </comment>
+  </comments>
   
