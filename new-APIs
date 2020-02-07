@@ -38,4 +38,19 @@ Inteaction, Events amd Messaging
       some text
     </comment>
   </comments>
+  -Shadow DOM
+  -Templates
+  
+  Performace Optimalization and Analysis
+  -High Resolution Time - measuring calculations and operations
+  -Navigation Timing - page load time
+  -Page Visibility - checking if page in tab is visible
+  -User Timing - measure how your application works
+  -Web Workers - using different threats in the browser which can help you with the performance
+  
+  Security and Privacy
+  -Content Security Policy - preventing cross-site scripting attact by creating whitelist for sources of the page including scrips & styles
+  -Referrer Policy
+  -Web Cryptography
+  
   
