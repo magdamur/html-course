@@ -64,4 +64,14 @@ mark
   highlited text
 </mark>
 
+bdi
+<bdi>bidirectional element changing horizontal direction eg Hebrew text</bdi>
 
+wbr - wordbreak - for very long words
+someverylong<wbr>word
+
+output - for showing result of a calculations
+<output></output>
+
+embed - use API where possible insted of embed
+<embed src="intro.mov">
