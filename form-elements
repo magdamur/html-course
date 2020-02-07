@@ -1,7 +1,27 @@
-meter
+meter - eg for remaining battery power, product ratings
 <meter
   min="0"
   max="100"
   value="20">
   20 out of 100
 </meter>
+
+progres - progress bar
+<progres 
+  max="100"
+  value="50">
+</progres>
+
+<math>
+  <!--math elements-->
+</math>
+
+datalist
+<input 
+  type="text"
+  list="colours"
+  min="20">
+<datalist id="colours">
+  <option src="green">
+  <option src="yellow">
+</datalist>
