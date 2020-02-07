@@ -16,3 +16,52 @@ header
 footer
 <footer></footer>
 
+nav
+<nav></nav>
+
+
+
+<html>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <article>
+        <section></section>
+        <aside></aside>
+      </article>
+    </main>
+    <footer>
+      <nav></nav>
+    </footer>
+  </body>
+</html>
+
+
+
+time
+<time date="2016-01-02" pubdate>
+  January 2, 2016
+</time>
+
+figure, figcaption, img
+<figure>
+  <figcaption>
+    Flower
+  </figcaption>
+  <img src="images/flower.jpg">
+</figure>
+
+details, summary
+<details>
+  <summary>Events</summary>
+  <p>Join us.</p>
+</details>
+
+mark
+<mark>
+  highlited text
+</mark>
+
+
