@@ -1,0 +1,30 @@
+https://platform.html5.org
+
+Graphics and Typography
+  -Canvas
+  -Web Animations
+
+Inteaction, Events amd Messaging
+  -Battery Status
+  -Clipboard API&Events
+  -Cross Document Messaging
+  -DEvice and Screen Orientation
+  -Fullscreen
+  -Geolocation
+  -Media Capture
+  -Notifications
+  -Touch Events
+  -Vibration
+  
+ Storage and Files
+   -Blob URLs - data in chunks in bites
+   -File API
+   -File Reader
+   -IndexedDB
+   -Local Storage
+   
+ Real Time Communication
+  -Push API - push data from the server to the client
+  -Server-Sent Events - message from the server to the client (one way)
+  -Web Socets - two way communications
+  
