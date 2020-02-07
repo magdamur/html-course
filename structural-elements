@@ -19,8 +19,6 @@ footer
 nav
 <nav></nav>
 
-
-
 <html>
   <body>
     <header>
@@ -37,8 +35,6 @@ nav
     </footer>
   </body>
 </html>
-
-
 
 time
 <time date="2016-01-02" pubdate>
@@ -73,5 +69,5 @@ someverylong<wbr>word
 output - for showing result of a calculations
 <output></output>
 
-embed - use API where possible insted of embed
+embed - use many native APIs as possible - the purpase of this element is to be a host container for external plugins
 <embed src="intro.mov">
