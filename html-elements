@@ -4,8 +4,8 @@
 <address>
 <applet>
 <area>
-<article>
-<aside>
+<article>-sectioning element
+<aside>-sectioning element
 <audio>
 <b>
 <base>
@@ -15,12 +15,12 @@
 <bgsound>
 <big>
 <blink>
-<blockquote>
-<body>
+<blockquote>-sectioning element
+<body>-sectioning element
 <br>
 <button>
 <canvas>
-<caption>
+<caption>-sectioning element
 <center>
 <cite>
 <code>
@@ -44,14 +44,14 @@
 <embed>
 <fieldset>
 <figcaption>
-<figure>
+<figure>-sectioning element
 <font>
-<footer>
-<form>
+<footer>-sectioning element
+<form>-sectioning element
 <frame>
 <frameset>
 <head>
-<header>
+<header>-sectioning element
 <hgroup>
 <hr>
 <html>
@@ -69,7 +69,7 @@
 <li>
 <link>
 <listing>
-<main>
+<main>-sectioning element
 <map>
 <mark>
 <marquee>
@@ -78,7 +78,7 @@
 <meta>
 <meter>
 <multicol>
-<nav>
+<nav>-sectioning element
 <nobr>
 <noembed>
 <noframes>
@@ -102,7 +102,7 @@
 <s>
 <samp>
 <script>
-<section>
+<section>-sectioning element
 <select>
 <shadow>
 <small>
@@ -115,7 +115,7 @@
 <sub>
 <summary>
 <sup>
-<table>
+<table>-sectioning element
 <tbody>
 <td>
 <template>
@@ -129,7 +129,7 @@
 <track>
 <tt>
 <u>
-<ul>
+<ul>-sectioning element
 <var>
 <video>
 <wbr>
