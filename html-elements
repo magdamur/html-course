@@ -1,5 +1,5 @@
 <a>-text-level semantic element
-<abbr>-text-level semantic element
+<abbr>-text-level semantic element, represent abbreviation or acronym
 <acronym>
 <address>
 <applet>
@@ -22,7 +22,7 @@
 <canvas>
 <caption>-sectioning element
 <center>
-<cite>-text-level semantic element
+<cite>-text-level semantic element, represents the title of the work, name of an author, or url reference
 <code>
 <col>
 <colgroup>
@@ -40,7 +40,7 @@
 <dl>
 <dt>
 <element>
-<em>-text-level semantic element
+<em>-text-level semantic element, press stress emhasis on content 
 <embed>
 <fieldset>
 <figcaption>
@@ -105,7 +105,7 @@
 <section>-sectioning element
 <select>
 <shadow>
-<small>-text-level semantic element
+<small>-text-level semantic element, side comments like disclaimers, caveats, legal restrictions, copyrights, or atribiution. Intended for short runs of text.
 <source>
 <spacer>
 <span>-text-level semantic element
