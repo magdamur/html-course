@@ -1,5 +1,5 @@
-<a>
-<abbr>
+<a>-text-level semantic element
+<abbr>-text-level semantic element
 <acronym>
 <address>
 <applet>
@@ -7,7 +7,7 @@
 <article>-sectioning element
 <aside>-sectioning element
 <audio>
-<b>
+<b>-text-level semantic element
 <base>
 <basefont>
 <bdi>
@@ -22,7 +22,7 @@
 <canvas>
 <caption>-sectioning element
 <center>
-<cite>
+<cite>-text-level semantic element
 <code>
 <col>
 <colgroup>
@@ -33,14 +33,14 @@
 <dd>
 <del>
 <details>
-<dfn>
+<dfn>-text-level semantic element
 <dialog>
 <dir>
 <div>
 <dl>
 <dt>
 <element>
-<em>
+<em>-text-level semantic element
 <embed>
 <fieldset>
 <figcaption>
@@ -55,7 +55,7 @@
 <hgroup>
 <hr>
 <html>
-<i>
+<i>-text-level semantic element
 <iframe>
 <image>
 <img>
@@ -105,12 +105,12 @@
 <section>-sectioning element
 <select>
 <shadow>
-<small>
+<small>-text-level semantic element
 <source>
 <spacer>
-<span>
+<span>-text-level semantic element
 <strike>
-<strong>
+<strong>-text-level semantic element
 <style>
 <sub>
 <summary>
@@ -123,7 +123,7 @@
 <tfoot>
 <th>
 <thead>
-<time>
+<time>-text-level semantic element
 <title>
 <tr>
 <track>
