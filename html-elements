@@ -42,7 +42,7 @@
 <element>
 <em>-text-level semantic element, press stress emhasis on content 
 <embed>
-<fieldset>
+<fieldset>-used to group together related controls and labels on a form
 <figcaption>
 <figure>-sectioning element
 <font>
@@ -59,13 +59,13 @@
 <iframe>
 <image>
 <img>
-<input>
+<input> <input type=[Checkbox,Color,Date,Datetime,Email,File,Image,Month,Number,Password,Range,Tel,URL]
 <ins>
 <isindex>
 <kbd>
 <keygen>
 <label>
-<legend>
+<legend>-A caption explaining the content of a fieldset element
 <li>
 <link>
 <listing>
