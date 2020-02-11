@@ -1,11 +1,11 @@
-<a>-text-level semantic element
-<abbr>-text-level semantic element, represent abbreviation or acronym
++<a>-text-level semantic element
++<abbr>-text-level semantic element, represent abbreviation or acronym
 <acronym>
 <address>
 <applet>
 <area>
-<article>-sectioning element
-<aside>-sectioning element
++<article>-sectioning element
++<aside>-sectioning element
 <audio>
 <b>-text-level semantic element
 <base>
@@ -16,9 +16,9 @@
 <big>
 <blink>
 <blockquote>-sectioning element
-<body>-sectioning element
-<br>
-<button>
++<body>-sectioning element
++<br>
++<button>
 <canvas>
 <caption>-sectioning element
 <center>
@@ -40,36 +40,36 @@
 <dl>
 <dt>
 <element>
-<em>-text-level semantic element, press stress emhasis on content 
++<em>-text-level semantic element, press stress emhasis on content 
 <embed>
-<fieldset>-used to group together related controls and labels on a form
-<figcaption>
++<fieldset>-used to group together related controls and labels on a form
++<figcaption>
 <figure>-sectioning element
 <font>
-<footer>-sectioning element
-<form>-sectioning element
++<footer>-sectioning element
++<form>-sectioning element
 <frame>
 <frameset>
-<head>
-<header>-sectioning element
++<head>
++<header>-sectioning element
 <hgroup>
-<hr>
-<html>
++<hr>
++<html>
 <i>-text-level semantic element
 <iframe>
 <image>
-<img>
++<img>
 <input> <input type=[Checkbox,Color,Date,Datetime,Email,File,Image,Month,Number,Password,Range,Tel,URL]
 <ins>
 <isindex>
 <kbd>
 <keygen>
-<label>
-<legend>-A caption explaining the content of a fieldset element
-<li>
++<label>
++<legend>-A caption explaining the content of a fieldset element
++<li>
 <link>
 <listing>
-<main>-sectioning element
++<main>-sectioning element
 <map>
 <mark>
 <marquee>
@@ -78,7 +78,7 @@
 <meta>
 <meter>
 <multicol>
-<nav>-sectioning element
++<nav>-sectioning element
 <nobr>
 <noembed>
 <noframes>
@@ -88,7 +88,7 @@
 <optgroup>
 <option>
 <output>
-<p>
++<p>
 <param>
 <picture>
 <plaintext>
@@ -101,21 +101,21 @@
 <ruby>
 <s>
 <samp>
-<script>
++<script>
 <section>-sectioning element
 <select>
 <shadow>
 <small>-text-level semantic element, side comments like disclaimers, caveats, legal restrictions, copyrights, or atribiution. Intended for short runs of text.
 <source>
 <spacer>
-<span>-text-level semantic element
++<span>-text-level semantic element
 <strike>
 <strong>-text-level semantic element
 <style>
 <sub>
 <summary>
 <sup>
-<table>-sectioning element
++<table>-sectioning element
 <tbody>
 <td>
 <template>
