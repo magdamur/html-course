@@ -185,6 +185,7 @@
 
 *********************************************************************************************
 <details>-does not work in IE and Firefox!
+details-block displayed as an expanding element, summary is always shown, detail is open when summary is clicked
 
 <details>
   <summary>What is HTML?</summary>
@@ -425,11 +426,14 @@ sectioning element
 <map>
 
 *********************************************************************************************
-<mark>
+<mark>-used to draw user attention, or to highlight content based on a search query
 
-<mark>
-  highlited text
-</mark>
+<p>
+  Dont forget
+  <mark>
+    we are closing at 12th Feb!
+  </mark>
+</p>
 *********************************************************************************************
 <marquee>
 
@@ -449,7 +453,8 @@ sectioning element
 <meta>
 
 *********************************************************************************************
-<meter> - eg for remaining battery power, product ratings
+<meter> - eg for remaining battery power, product ratings, how strong the coffee is, 
+how much space you have in the cloud storage folder, to show percent of complition
 
 <meter
   min="0"
@@ -523,7 +528,7 @@ sectioning element
 <pre>
 
 *********************************************************************************************
-<progress> - progress bar
+<progress>-progress bar, progress of the task, how far the user is in the checkout process
 
 <progres 
   max="100"
@@ -605,6 +610,8 @@ legal restrictions, copyrights, or atribiution. Intended for short runs of text.
 
 *********************************************************************************************
 <summary>-does not work in IE and Firefox!
+details-block displayed as an expanding element, summary is always shown, detail is open when 
+summary is clicked
 
 <details>
   <summary>What is HTML?</summary>
@@ -654,9 +661,13 @@ legal restrictions, copyrights, or atribiution. Intended for short runs of text.
 *********************************************************************************************
 <time>-text-level semantic element
 
+<time>10:00</time>
+
 <time date="2016-01-02" pubdate>
   January 2, 2016
 </time>
+
+<p>Sorry we are cosed on <time datetime="2014-12-24">Christmas Eve</time>.</p>
 *********************************************************************************************
 <title>
 
