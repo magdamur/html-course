@@ -374,7 +374,17 @@ sectioning element
 </figure>
 *********************************************************************************************
 <input>
-<input type=[Checkbox,Color,Date,Datetime,Email,File,Image,Month,Number,Password,Range,Tel,URL]
+<input type=[Checkbox,Color,Date,Datetime,Datetime-local,Time,Week,Month,Email,File,Image,Month,Number,Password,Range,Search,Tel,URL]>
+Validation:
+<input type="text" maxlength="20">
+<input type="text" pattern="[A-Za-z]{3}">
+<input type="text" required>
+<input type ="number" min="1" max="10">
+<input type="text" placeholder="First Name">
+<form novalidate></form>
+<input formnovalidate="formnovalidate">
+
+
 
 *********************************************************************************************
 <ins>
