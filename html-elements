@@ -1,14 +1,14 @@
 *********************************************************************************************
-<a> - text-level semantic element
+<a>-text-level semantic element
 
 *********************************************************************************************
-<abbr> - text-level semantic element, represent abbreviation or acronym
+<abbr>-text-level semantic element, represent abbreviation or acronym
 
 *********************************************************************************************
 <acronym>
 
 *********************************************************************************************
-<address> - new semantic element
+<address>-new semantic element
 
 <address>
   Written by <a href="mailto:xyz@xyz.com">xyz@xyz.com</a><br>
@@ -24,7 +24,24 @@
 <area>
 
 *********************************************************************************************
-<article> - sectioning element
+<article>-sectioning element
+
+<html>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <article>
+        <section></section>
+        <aside></aside>
+      </article>
+    </main>
+    <footer>
+      <nav></nav>
+    </footer>
+  </body>
+</html>
 
 <article>
   <header>
@@ -36,7 +53,24 @@
   </aside>
 </article>
 *********************************************************************************************
-<aside> - sectioning element
+<aside>-sectioning element
+
+<html>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <article>
+        <section></section>
+        <aside></aside>
+      </article>
+    </main>
+    <footer>
+      <nav></nav>
+    </footer>
+  </body>
+</html>
 
 <article>
   <header>
@@ -61,6 +95,7 @@
 *********************************************************************************************
 <bdi>
 
+<bdi>bidirectional element changing horizontal direction eg Hebrew text</bdi>
 *********************************************************************************************
 <bdo>
 
@@ -77,13 +112,29 @@
 <blockquote>-sectioning element
 
 *********************************************************************************************
-+<body>-sectioning element
+<body>-sectioning element
+
+<html>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <article>
+        <section></section>
+        <aside></aside>
+      </article>
+    </main>
+    <footer>
+      <nav></nav>
+    </footer>
+  </body>
+</html>
+*********************************************************************************************
+<br>
 
 *********************************************************************************************
-+<br>
-
-*********************************************************************************************
-+<button>
+<button>
 
 *********************************************************************************************
 <canvas>
@@ -118,6 +169,14 @@
 *********************************************************************************************
 <datalist>
 
+<input 
+  type="text"
+  list="colours"
+  min="20">
+<datalist id="colours">
+  <option src="green">
+  <option src="yellow">
+</datalist>
 *********************************************************************************************
 <dd>
 
@@ -127,6 +186,19 @@
 *********************************************************************************************
 <details>
 
+<details>
+  <summary>Events</summary>
+  <p>Join us.</p>
+</details>
+
+<details open>
+  <summary>Features</summary>
+  <ul>
+    <li>text </li>
+    <li>text</li>
+    <li>text</li>
+  </ul>
+</details>
 *********************************************************************************************
 <dfn>-text-level semantic element
 
@@ -149,34 +221,63 @@
 <element>
 
 *********************************************************************************************
-+<em>-text-level semantic element, press stress emhasis on content 
+<em>-text-level semantic element, press stress emhasis on content 
 
 *********************************************************************************************
-<embed>
+<embed>-use many native APIs as possible - the purpase of this element is to be a host 
+container for external plugins
+
+<embed src="intro.mov">
+*********************************************************************************************
+<fieldset>-used to group together related controls and labels on a form
 
 *********************************************************************************************
-+<fieldset>-used to group together related controls and labels on a form
+<figcaption>
 
-*********************************************************************************************
-+<figcaption>
-
+<figure>
+  <figcaption>
+    Flower
+  </figcaption>
+  <img src="images/flower.jpg">
+</figure>
 *********************************************************************************************
 <figure>-sectioning element
 
+<figure>
+  <figcaption>
+    Flower
+  </figcaption>
+  <img src="images/flower.jpg">
+</figure>
 *********************************************************************************************
 <font>
 
 *********************************************************************************************
-<footer>
+<footer>-sectioning element
 
-sectioning element
+<html>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <article>
+        <section></section>
+        <aside></aside>
+      </article>
+    </main>
+    <footer>
+      <nav></nav>
+    </footer>
+  </body>
+</html>
 
 <footer>
   <p>Post written by: Amy</p>
   <p>Contact Amy via: <a href="mailto:amy@abc.com">amy@abc.com</a>.</p>
 </footer>
 *********************************************************************************************
-+<form>-sectioning element
+<form>-sectioning element
 
 *********************************************************************************************
 <frame>
@@ -185,28 +286,61 @@ sectioning element
 <frameset>
 
 *********************************************************************************************
-+<head>
+<head>
 
 *********************************************************************************************
 <header>
 
 sectioning element
 
+<html>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <article>
+        <section></section>
+        <aside></aside>
+      </article>
+    </main>
+    <footer>
+      <nav></nav>
+    </footer>
+  </body>
+</html>
+
 <article>
   <header>
-    <h1>Store official opening</h1>
-   </header>
-   <p>On 5th September 2010 Store officially opened!<p>
- </article> 
+   <h1>Store official opening</h1>
+  </header>
+  <p>On 5th September 2010 Store officially opened!<p>
+</article> 
 *********************************************************************************************
 <hgroup>
 
 *********************************************************************************************
-+<hr>
+<hr>
 
 *********************************************************************************************
-+<html>
+<html>
 
+<html>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <article>
+        <section></section>
+        <aside></aside>
+      </article>
+    </main>
+    <footer>
+      <nav></nav>
+    </footer>
+  </body>
+</html>
 *********************************************************************************************
 <i>-text-level semantic element
 
@@ -217,10 +351,17 @@ sectioning element
 <image>
 
 *********************************************************************************************
-+<img>
+<img>
 
+<figure>
+  <figcaption>
+    Flower
+  </figcaption>
+  <img src="images/flower.jpg">
+</figure>
 *********************************************************************************************
-<input> <input type=[Checkbox,Color,Date,Datetime,Email,File,Image,Month,Number,Password,Range,Tel,URL]
+<input>
+<input type=[Checkbox,Color,Date,Datetime,Email,File,Image,Month,Number,Password,Range,Tel,URL]
 
 *********************************************************************************************
 <ins>
@@ -235,15 +376,13 @@ sectioning element
 <keygen>
 
 *********************************************************************************************
-+<label>
+<label>
 
 *********************************************************************************************
-+<legend>-A caption explaining the content of a fieldset element
+<legend>-A caption explaining the content of a fieldset element
 
 *********************************************************************************************
-+<li>
-
-*********************************************************************************************
+<li>
 
 *********************************************************************************************
 <link>
@@ -252,17 +391,42 @@ sectioning element
 <listing>
 
 *********************************************************************************************
-+<main>-sectioning element
+<main>-sectioning element
 
+<html>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <article>
+        <section></section>
+        <aside></aside>
+      </article>
+    </main>
+    <footer>
+      <nav></nav>
+    </footer>
+  </body>
+</html>
 *********************************************************************************************
 <map>
 
 *********************************************************************************************
 <mark>
 
+<mark>
+  highlited text
+</mark>
 *********************************************************************************************
 <marquee>
 
+*********************************************************************************************
+<math>
+
+<math>
+  <!--math elements-->
+</math>
 *********************************************************************************************
 <menu>
 
@@ -273,14 +437,36 @@ sectioning element
 <meta>
 
 *********************************************************************************************
-<meter>
+<meter> - eg for remaining battery power, product ratings
 
+<meter
+  min="0"
+  max="100"
+  value="20">
+  20 out of 100
+</meter>
 *********************************************************************************************
 <multicol>
 
 *********************************************************************************************
-+<nav>-sectioning element
+<nav>-sectioning element
 
+<html>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <article>
+        <section></section>
+        <aside></aside>
+      </article>
+    </main>
+    <footer>
+      <nav></nav>
+    </footer>
+  </body>
+</html>
 *********************************************************************************************
 <nobr>
 
@@ -306,10 +492,11 @@ sectioning element
 <option>
 
 *********************************************************************************************
-<output>
+<output>-for showing result of a calculations
 
+<output></output>
 *********************************************************************************************
-+<p>
+<p>
 
 *********************************************************************************************
 <param>
@@ -324,8 +511,12 @@ sectioning element
 <pre>
 
 *********************************************************************************************
-<progress>
+<progress> - progress bar
 
+<progres 
+  max="100"
+  value="50">
+</progres>
 *********************************************************************************************
 <q>
 
@@ -348,11 +539,27 @@ sectioning element
 <samp>
 
 *********************************************************************************************
-+<script>
+<script>
 
 *********************************************************************************************
 <section>-sectioning element
 
+<html>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <article>
+        <section></section>
+        <aside></aside>
+      </article>
+    </main>
+    <footer>
+      <nav></nav>
+    </footer>
+  </body>
+</html>
 *********************************************************************************************
 <select>
 
@@ -360,7 +567,8 @@ sectioning element
 <shadow>
 
 *********************************************************************************************
-<small>-text-level semantic element, side comments like disclaimers, caveats, legal restrictions, copyrights, or atribiution. Intended for short runs of text.
+<small>-text-level semantic element, side comments like disclaimers, caveats, 
+legal restrictions, copyrights, or atribiution. Intended for short runs of text.
 
 *********************************************************************************************
 <source>
@@ -369,7 +577,7 @@ sectioning element
 <spacer>
 
 *********************************************************************************************
-+<span>-text-level semantic element
+<span>-text-level semantic element
 
 *********************************************************************************************
 <strike>
@@ -386,11 +594,24 @@ sectioning element
 *********************************************************************************************
 <summary>
 
+<details>
+  <summary>Events</summary>
+  <p>Join us.</p>
+</details>
+
+<details open>
+  <summary>Features</summary>
+  <ul>
+    <li>text </li>
+    <li>text</li>
+    <li>text</li>
+  </ul>
+</details>
 *********************************************************************************************
 <sup>
 
 *********************************************************************************************
-+<table>-sectioning element
+<table>-sectioning element
 
 *********************************************************************************************
 <tbody>
@@ -416,6 +637,9 @@ sectioning element
 *********************************************************************************************
 <time>-text-level semantic element
 
+<time date="2016-01-02" pubdate>
+  January 2, 2016
+</time>
 *********************************************************************************************
 <title>
 
@@ -440,9 +664,27 @@ sectioning element
 *********************************************************************************************
 <video>
 
-*********************************************************************************************
-<wbr>
+<video controls loop preload="auto" poster="img/some.jpg" width="900">
+  <source src=media/some.mp4><!--serve first for iPad -->
+  <source src=media/some.ogv>
+  <source src=media/some.webm>
+  <p>This browser does not support native video</p>
+</video>
 
+<video>
+  <source src="video.mp4">
+  <source src="video.ogg">
+  <source src="video.webm">
+  <track 
+    kind="subtitles"
+    label="Polish Subtitles"
+    src="pl.vtt"
+    srclan="en">
+</video>
+*********************************************************************************************
+<wbr>-wordbreak - for very long words
+
+someverylong<wbr>word
 *********************************************************************************************
 <xmp>
 
