@@ -8,7 +8,7 @@
 </details>
 
 <video controls loop preload="auto" poster="img/some.jpg" width="900">
-  <source src=media/some.mp4><!--serve first for iPad
+  <source src=media/some.mp4><!--serve first for iPad-->
   <source src=media/some.ogv>
   <source src=media/some.webm>
   <p>This browser does not support native video</p>
