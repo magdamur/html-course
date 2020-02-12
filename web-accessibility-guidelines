@@ -60,6 +60,8 @@ If you are not using any of those, here is the basic css:
     position: absolute;
     width: 1px;
 }
-
+<h2>FAQs</h2>
+<dt>Do you provide web hosting</dt>
+<dd>Yes, we do.<a href="products.html">Read more <span class="visuallyHidden">on our products page</span></a></dd>
 
 
