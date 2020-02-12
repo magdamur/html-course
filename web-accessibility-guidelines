@@ -1,9 +1,10 @@
+use VoiceOver to read the text
 Web Conformance Guidelines:
 -Section 508 (United States)
 -WCAG 2.1 - Web Conformance Accessibility Guidlines (Word Wide Web Consortium)
 
 78 criteria oraganised as 13 guidlines under 4 principles:
--Perceivable (ang dostrzegalny)-dotepne do zobaczenia i przeczytania przez wszystkich
+-Perceivable (ang dostrzegalny)-dostepne do zobaczenia i przeczytania przez wszystkich
 -Operable (ang wykonalny)-urzadzenia pozwalaja na interakcje - mouse, touch, keybord
 -Understanable - (ang zrozumialy)-zarówno tresc jak i sposoby interakcji musza byc zrozumiale
 -Robust-(ang silny, rozrosły)-dostepny na roznych urzadzeniach (browsers, devices, assistive technologies)
@@ -16,3 +17,49 @@ Levels of conformance
 URLs:
 http://www.section508.gov
 https://www.w3.org/WAI/standards-guidelines/wcag/
+
+Document Structure and Landmarks:
+<!doctype>, language, encoding
+Text resizing via viewport and relative units (em or rem)
+Unique Page <title>
+Landmarks
+Headings <h1>-<h6>
+
+dont disable zoom by setting user-scalable=no maximum-scale=1 or minimum-scale=1
+<meta name="viewport" content="user-scalable=no, maximum-scale=1">
+
+Lists:
+<ol>
+<ul>
+<dl> - description list
+<dt><dd>
+
+<nav aria-label="site">
+<nav aria-label="page">
+
+<form role="search">
+  <input type="search" />
+</form>
+
+must provide more than one way to reach pages eg by implementing search or using sitemap
+
+Link Purpase - the link text must be descriptive eg dont use: click here
+
+Visually Hidden Text - Frameworkd
+(text hidden for the users but still accessible for the screen readers)
+-Bootstrap has sr-only class
+-Fundation ZURB has show-for-sr class
+
+If you are not using any of those, here is the basic css:
+  .visuallyHidden {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+
+
