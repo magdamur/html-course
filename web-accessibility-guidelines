@@ -19,19 +19,19 @@ http://www.section508.gov
 https://www.w3.org/WAI/standards-guidelines/wcag/
 
 Document Structure and Landmarks:
-<!doctype>, language, encoding
-Text resizing via viewport and relative units (em or rem)
-Unique Page <title>
-Landmarks
-Headings <h1>-<h6>
+*<!doctype>, language, encoding
+*Text resizing via viewport and relative units (em or rem)
+*Unique Page <title>
+*Landmarks (semantic elements: header footer main article aside)
+*Headings <h1>-<h6>
 
 dont disable zoom by setting user-scalable=no maximum-scale=1 or minimum-scale=1
 <meta name="viewport" content="user-scalable=no, maximum-scale=1">
 
 Lists:
-<ol>
-<ul>
-<dl> - description list
+*<ol>
+*<ul>
+*<dl> - description list
 <dt><dd>
 
 <nav aria-label="site">
@@ -41,11 +41,11 @@ Lists:
   <input type="search" />
 </form>
 
-must provide more than one way to reach pages eg by implementing search or using sitemap
+*must provide more than one way to reach pages eg by implementing search or using sitemap
 
-Link Purpase - the link text must be descriptive eg dont use: click here
+*Link Purpase - the link text must be descriptive eg dont use: click here
 
-Visually Hidden Text - Frameworkd
+Visually Hidden Text - Frameworks
 (text hidden for the users but still accessible for the screen readers)
 -Bootstrap has sr-only class
 -Fundation ZURB has show-for-sr class
@@ -63,5 +63,27 @@ If you are not using any of those, here is the basic css:
 <h2>FAQs</h2>
 <dt>Do you provide web hosting</dt>
 <dd>Yes, we do.<a href="products.html">Read more <span class="visuallyHidden">on our products page</span></a></dd>
+
+*Skip Link 
+<body>
+  <header>
+    <a class="skip-link" href="#main">Skip to main</a>
+    ...
+    <main id="main" tab-index="-1">
+.skip-link {
+  left: -100%; 
+  position: absolute; 
+  }
+.skip-link:focus {
+  left: 50%
+  }
+  
+For best support of Skip Links across the browsers and platforms add JS:
+
+var skipLink = document.querySelector('.skip-link');
+skipLink.addEventListener('click', function(e) {
+  document.querySelector(skipLink.getAttribute('href')).focus();
+});
+
 
 
