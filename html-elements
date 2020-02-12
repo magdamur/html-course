@@ -184,7 +184,12 @@
 <del>
 
 *********************************************************************************************
+<details>-does not work in IE and Firefox!
+
 <details>
+  <summary>What is HTML?</summary>
+  <p>HTML stands for...</p>
+</details>
 
 <details>
   <summary>Events</summary>
@@ -241,7 +246,14 @@ container for external plugins
   <img src="images/flower.jpg">
 </figure>
 *********************************************************************************************
-<figure>-sectioning element
+<figure>-sectioning element, use only if related to the main content, not all images need 
+figure tag
+
+<p>We need flowers in our home</p>
+<figure>
+  <img src="images/flower.jpg">
+  <figcaption>Flower</figcaption>
+</figure>
 
 <figure>
   <figcaption>
@@ -592,7 +604,12 @@ legal restrictions, copyrights, or atribiution. Intended for short runs of text.
 <sub>
 
 *********************************************************************************************
-<summary>
+<summary>-does not work in IE and Firefox!
+
+<details>
+  <summary>What is HTML?</summary>
+  <p>HTML stands for...</p>
+</details>
 
 <details>
   <summary>Events</summary>
