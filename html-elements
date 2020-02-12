@@ -1,14 +1,22 @@
 *********************************************************************************************
-<a>-text-level semantic element
+<a> - text-level semantic element
 
 *********************************************************************************************
-<abbr>-text-level semantic element, represent abbreviation or acronym
+<abbr> - text-level semantic element, represent abbreviation or acronym
 
 *********************************************************************************************
 <acronym>
-*********************************************************************************************
-<address>
 
+*********************************************************************************************
+<address> - new semantic element
+
+<address>
+  Written by <a href="mailto:xyz@xyz.com">xyz@xyz.com</a><br>
+  Visit us at:<br>
+  The City<br>
+  NG92ED<br>
+  Nottingham
+</address>
 *********************************************************************************************
 <applet>
 
@@ -16,18 +24,35 @@
 <area>
 
 *********************************************************************************************
-+<article>-sectioning element
+<article> - sectioning element
 
+<article>
+  <header>
+    <h1>HTML 5</h1>
+  </header>
+  <p>Lorem Ipsum</p>
+  <aside>
+    <q>Did you know that HTML 5 is blah blah blah</q>
+  </aside>
+</article>
 *********************************************************************************************
-+<aside>-sectioning element
+<aside> - sectioning element
 
+<article>
+  <header>
+    <h1>HTML 5</h1>
+  </header>
+  <p>Lorem Ipsum</p>
+  <aside>
+    <q>Did you know that HTML 5 is blah blah blah</q>
+  </aside>
+</article>
 *********************************************************************************************
 <audio>
 
 *********************************************************************************************
+<b>-text-level semantic element
 
-
-*********************************************************************************************<b>-text-level semantic element
 <base>
 
 *********************************************************************************************
