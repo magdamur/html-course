@@ -1,1 +1,9 @@
-
+Web Conformance Guidelines:
+-Section 508 (United States)
+-WCAG 2.1 - Web Conformance Accessibility Guidlines (Word Wide Web Consortium)
+78 criteria oraganised as 13 guidlines under 4 principles:
+-Perceivable (ang dostrzegalny)-dotepne do zobaczenia i przeczytania przez wszystkich
+-Operable (ang wykonalny)-urzadzenia pozwalaja na interakcje - mouse, touch, keybord
+-Understanable - (ang zrozumialy)-zarówno tresc jak i sposoby interakcji musza byc zrozumiale
+-Robust-(ang silny, rozrosły)-dostepny na roznych urzadzeniach (browsers, devices, assistive technologies)
+www.section508.gov
