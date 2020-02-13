@@ -28,11 +28,12 @@ Document Structure and Landmarks:
 dont disable zoom by setting user-scalable=no maximum-scale=1 or minimum-scale=1
 <meta name="viewport" content="user-scalable=no, maximum-scale=1">
 
+*Consistent Navigation (says in the same place and order across the site)
+
 Lists:
-*<ol>
-*<ul>
-*<dl> - description list
-<dt><dd>
+-<ol>
+-<ul>
+-<dl> - description list <dt><dd>
 
 <nav aria-label="site">
 <nav aria-label="page">
@@ -41,7 +42,9 @@ Lists:
   <input type="search" />
 </form>
 
-*must provide more than one way to reach pages eg by implementing search or using sitemap
+*Multiple Ways of finding pages - must provide more than one way to reach pages eg by implementing search 
+or using sitemap (build site map with ul,ol or combination of ul and ol 
+or if bigger site you can categorise links using headers h2-h6)
 
 *Link Purpase - the link text must be descriptive eg dont use: click here
 
@@ -63,6 +66,10 @@ If you are not using any of those, here is the basic css:
 <h2>FAQs</h2>
 <dt>Do you provide web hosting</dt>
 <dd>Yes, we do.<a href="products.html">Read more <span class="visuallyHidden">on our products page</span></a></dd>
+
+*Consistent Identification - components that have the same functionality should be identified consistently -
+eg buttons/Icons shoud be labelled the same for similar functionality 
+eg Search button shoud be the same on all pages eg we cannot have Search on one page and Go on another
 
 *Skip Link 
 <body>
