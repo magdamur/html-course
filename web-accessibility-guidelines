@@ -18,22 +18,91 @@ URLs:
 http://www.section508.gov
 https://www.w3.org/WAI/standards-guidelines/wcag/
 
+TECHNIQUES ON MEETING WCAG 2.1 Level AA (38 GUIDLINES):
 Document Structure and Landmarks:
-*<!doctype>, language, encoding
-*Text resizing via viewport and relative units (em or rem)
-*Unique Page <title>
-*Landmarks (semantic elements: header footer main article aside)
-*Headings <h1>-<h6>
+****Level A 4.1.1 Parsing
+It means browsers and assistive technologies can properly read your code
+(there should be no errors when parsing the code)
+Let the parser know which set of rules to use by adding doctype: <!doctype html> 
+Properly open and close tags
+Make sure there is no duplicate element atttributes
+No duplicate element ID
 
-dont disable zoom by setting user-scalable=no maximum-scale=1 or minimum-scale=1
+****Level A 3.1.1 Language of page
+<html lang="en"> - the value should be ISO-639-1 code eg en for English
+Use this below for proper parsing and rendering (these are not any guidlines but you get benefits - proper parsing and rendering)
+<meta charset="utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie-edge"> - sets compatibility mode for IE
+
+****Level A 2.4.2 Page Titled
+title must be different for every page
+<title>About | Acme Web Design</title>
+
+****Level AA 1.4.4 Resize Text
+User must be able to resize text up to 200%, text, images, controlls cannot be cut off, and it cannot cause the horizontal scroll bars
+Text resizing via viewport and relative units (em or rem)
+Set vievport for responsive design and mobile browsers
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+
+Never ever disable zoom by setting user-scalable=no maximum-scale=1 or minimum-scale=1
 <meta name="viewport" content="user-scalable=no, maximum-scale=1">
 
-*Consistent Navigation (says in the same place and order across the site)
+****Level A 1.3.1 Info and Relationships
+and part of meeting Level A 2.4.1 Bypass Blocks
+Use Landmarks (new HTML5 elements: header nav main footer and aside)
+<main /> can only be used one per page:
+
+<body>
+  <header>
+    <nav aria-label="site">
+    </nav>
+  </header>
+  <main>
+  </main>
+  <aside>
+    <nav aria-label="page">
+    </nav>
+  </aside>
+  <footer>
+    <nav aria-label="site">
+    </nav>
+  </footer>
+</body>
+
+***Level A 1.3.1 Info and Relationships and Level A 2.4.6 Headings and Labels
+We need to create logical outline (this is provided by way of headers h1-h6)
+
+<body>
+  <header>
+    <nav aria-label="site">
+    </nav>
+  </header>
+  <main>
+    <h1>About</h1> <!--it shoud match the title, there should be one and only one h1 and should be first element in main-->
+    <p>...</p>
+      <h2>...</h2>
+      <p>...</p>
+        <h3>...</h3>
+        <p>...</p>  
+  </main>
+  <aside>
+    <nav aria-label="page">
+    </nav>
+  </aside>
+  <footer>
+    <nav aria-label="site">
+    </nav>
+  </footer>
+</body>
+
+**8**Info and Relationships
 
 Lists:
 -<ol>
 -<ul>
 -<dl> - description list <dt><dd>
+
+**9**Consistent Navigation (says in the same place and order across the site)
 
 <nav aria-label="site">
 <nav aria-label="page">
@@ -42,11 +111,11 @@ Lists:
   <input type="search" />
 </form>
 
-*Multiple Ways of finding pages - must provide more than one way to reach pages eg by implementing search 
+**10**Multiple Ways of finding pages - must provide more than one way to reach pages eg by implementing search 
 or using sitemap (build site map with ul,ol or combination of ul and ol 
 or if bigger site you can categorise links using headers h2-h6)
 
-*Link Purpase - the link text must be descriptive eg dont use: click here
+**11**Link Purpase - the link text must be descriptive eg dont use: click here
 
 Visually Hidden Text - Frameworks
 (text hidden for the users but still accessible for the screen readers)
@@ -67,11 +136,11 @@ If you are not using any of those, here is the basic css:
 <dt>Do you provide web hosting</dt>
 <dd>Yes, we do.<a href="products.html">Read more <span class="visuallyHidden">on our products page</span></a></dd>
 
-*Consistent Identification - components that have the same functionality should be identified consistently -
+**12**Consistent Identification - components that have the same functionality should be identified consistently -
 eg buttons/Icons shoud be labelled the same for similar functionality 
 eg Search button shoud be the same on all pages eg we cannot have Search on one page and Go on another
 
-*Skip Link 
+**13**Skip Links
 <body>
   <header>
     <a class="skip-link" href="#main">Skip to main</a>
