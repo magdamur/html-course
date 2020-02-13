@@ -95,25 +95,35 @@ We need to create logical outline (this is provided by way of headers h1-h6)
   </footer>
 </body>
 
-**8**Info and Relationships
-
+****Level A 1.3.1 Info and Relationships
 Lists:
--<ol>
--<ul>
--<dl> - description list <dt><dd>
+-<ol> - ordered list
+-<ul> - unordered list
+-<dl> - description list <dt><dd> eg FAQs
 
-**9**Consistent Navigation (says in the same place and order across the site)
+****Level A 1.3.1 Info and Relationships
+-logical structure
+-visual cues via css, must be conveyed non-visually via semanics
 
-<nav aria-label="site">
-<nav aria-label="page">
+****Level AA 1.4.5 Images of Text
+Use text where possible rather the images of text
 
-<form role="search">
-  <input type="search" />
-</form>
+****Level AA 3.2.3 Consistent Navigation 
+Navigation shoud be in the same place and the same order on every page
 
-**10**Multiple Ways of finding pages - must provide more than one way to reach pages eg by implementing search 
+****Level AA 2.4.5 Multiple Ways 
+Multiple ways of finding pages - you must provide more than one way to reach pages eg by implementing search 
 or using sitemap (build site map with ul,ol or combination of ul and ol 
 or if bigger site you can categorise links using headers h2-h6)
+<form action="/search" method="POST" role="search">
+  <label for="query">Search</label> 
+  <input id="query" name="search" type="search" />
+  <button>Search</button>
+</form>
+
+****Level AA 3.2.4
+
+
 
 **11**Link Purpase - the link text must be descriptive eg dont use: click here
 
