@@ -121,18 +121,20 @@ or if bigger site you can categorise links using headers h2-h6)
   <button>Search</button>
 </form>
 
-****Level AA 3.2.4
+****Level AA 3.2.4 Consistent Identification
+Components that have the same functionality should be identified consistently -
+eg buttons/icons shoud be labelled the same for similar functionality 
+eg Search button shoud be the same on all pages eg we cannot have Search on one page and Go on another
 
+****>Level A 2.4.4 Link Purpase
+The link text must be descriptive, so you know the purpuse of it eg dont use: click here
 
-
-**11**Link Purpase - the link text must be descriptive eg dont use: click here
-
-Visually Hidden Text - Frameworks
+Visually Hidden Text - Frameworks:
 (text hidden for the users but still accessible for the screen readers)
 -Bootstrap has sr-only class
 -Fundation ZURB has show-for-sr class
 
-If you are not using any of those, here is the basic css:
+If you are not using any of those above, here is the basic css:
   .visuallyHidden {
     border: 0;
     clip: rect(1px, 1px, 1px, 1px);
@@ -146,11 +148,9 @@ If you are not using any of those, here is the basic css:
 <dt>Do you provide web hosting</dt>
 <dd>Yes, we do.<a href="products.html">Read more <span class="visuallyHidden">on our products page</span></a></dd>
 
-**12**Consistent Identification - components that have the same functionality should be identified consistently -
-eg buttons/Icons shoud be labelled the same for similar functionality 
-eg Search button shoud be the same on all pages eg we cannot have Search on one page and Go on another
-
-**13**Skip Links
+Level A 2.4.1 Bypass Blocks
+It says we can bypass block of content that are repeated on multiple pages
+Skip Link-its very first link that allow us to skip repeated content
 <body>
   <header>
     <a class="skip-link" href="#main">Skip to main</a>
