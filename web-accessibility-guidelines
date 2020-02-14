@@ -171,5 +171,12 @@ skipLink.addEventListener('click', function(e) {
   document.querySelector(skipLink.getAttribute('href')).focus();
 });
 
+Tables
+<caption> (optional) - title of a table
+<thead> <tfoot> <tbody> (optional) - grouping elements, generally use them always as it does not hurt
+<th> - creating header cells
+scope, headers - attributes
 
-
+<table>
+<thead></thead>
+</table>
