@@ -171,7 +171,8 @@ skipLink.addEventListener('click', function(e) {
   document.querySelector(skipLink.getAttribute('href')).focus();
 });
 
-1.3.1 Tables
+****Level A 1.3.1 Info and Relationships 
+Tables
 <caption> (optional) - title of a table
 <thead> <tfoot> <tbody> (optional) - grouping elements, generally use them always as it does not hurt
 <th> - creating header cells
@@ -206,8 +207,6 @@ scope, headers - attributes
   </tbody>
 </table>
 
-headers-
-
 <table>
   <caption>Bundles
   <span class="visuallyHidden">: This table has a list of bundles,
@@ -238,7 +237,6 @@ headers-
       <td header="basic cost">20</td>
     </tr>
   </tbody>
-  
   <tbody>
     <tr>
       <th id="advance" colspan="2" scope="colgroup">Advance</th>
@@ -258,6 +256,32 @@ headers-
   </tbody>
 </table>
 
+OR BETTER SOLUTION:
+(avoid complex tables, nesting and spanned columns/rows, flatten data as much as pssible)]
+<table>
+  <caption>Basic</caption>
+  <thead>
+    <tr>
+      <th scope="col">Product</th>
+      <th scope="col">Cost</th>
+    </tr>
+  <thead/>
+  <tfoot>
+    <tr>
+      <td>cost with discount</td>
+      <td>20</td>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr>
+      <td>aa</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>bb</td>
+      <td>15</td>
+    </tr>
+  </tbody>
+</table>
 
-
-
+<tfoot> always goes before <tbody>
