@@ -339,3 +339,6 @@ dates or amounts.
 novalidate - this tells the browser not to use native validation, which is provided by HTML5
 As of right now, the native error message balloons are not accessible. Also its difficult to style them.
 Its better use JavaScript validation.
+
+****Level AA 3.1.2 Language of Parts
+****Level AA 3.1.1 Language of Page
