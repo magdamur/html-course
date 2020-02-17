@@ -334,3 +334,8 @@ Error should be described to the user in text
 where possible you shoud provide an information on how to correct the error (unless it would jeopardise the security 
 or purpuse of the content) - eg fields that require specific format or type of content like emails, telephone numbers, 
 dates or amounts.
+
+<form novalidate></form>
+novalidate - this tells the browser not to use native validation, which is provided by HTML5
+As of right now, the native error message balloons are not accessible. Also its difficult to style them.
+Its better use JavaScript validation.
