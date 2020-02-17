@@ -176,8 +176,8 @@ skipLink.addEventListener('click', function(e) {
 <thead> <tfoot> <tbody> (optional) - grouping elements, generally use them always as it does not hurt
 <th> - creating header cells
 scope, headers - attributes
-
-scope=[row,col,rowgroup,colgroup]
+<th scope=[col,row,colgroup,rowgroup]></th>
+<td headers=[use ids seperated by space to associate this cell with the appropriate headers]></td>
 <table>
   <caption>List of products</caption>
   <thead>
@@ -206,4 +206,58 @@ scope=[row,col,rowgroup,colgroup]
   </tbody>
 </table>
 
-headers-use ids seperated by space to associate this cell with the appropriate headers 
+headers-
+
+<table>
+  <caption>Bundles
+  <span class="visuallyHidden">: This table has a list of bundles,
+            which are collections of products and services. The first column
+            is the product or service and the second column is the cost. Each
+            bundle includes a total cost, including any discounts.</span>
+  </caption>
+  <thead>
+    <tr>
+      <th id="prod" scope"col">Product</th>
+      <th id="cost" scope="col">Cost</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th id="basic" colspan="2" scope="colgroup">Basic</th>
+    </tr>
+    <tr>
+      <td headers="basic prod">aaa</td>
+      <td headers="basic cost">10</td>
+    </tr>
+    <tr>
+      <td headers="basic prod">bbb</td>
+      <td headers="basic cost">15</td>
+    </tr>
+    <tr>
+      <td header="basic">cost with discount</td>
+      <td header="basic cost">20</td>
+    </tr>
+  </tbody>
+  
+  <tbody>
+    <tr>
+      <th id="advance" colspan="2" scope="colgroup">Advance</th>
+    </tr>
+    <tr>
+      <td headers="advance prod">ddd</td>
+      <td headers="advance cost">100</td>
+    </tr>
+    <tr>
+      <td headers="advance prod">eee</td>
+      <td headers="advance cost">150</td>
+    </tr>
+    <tr>
+      <td headers="advance">cost with discount</td>
+      <td headers="advance cost">200</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
